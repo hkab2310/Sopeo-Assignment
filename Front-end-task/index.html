@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sopeo-Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="profile_card_container">
+        <div id="profile_card">
+            <img id="profile_img"
+                src="https://marketplace.canva.com/EAFXS8-cvyQ/1/0/1600w/canva-brown-and-light-brown%2C-circle-framed-instagram-profile-picture-2PE9qJLmPac.jpg"
+                alt="profile-img" width="150px" height="150px">
+            <div id="profile_name">
+                <h3>John Doe</h3>
+                <p>Male &nbsp;<span>&nbsp;24yrs&nbsp;</span></p>
+            </div>
+            <div id="profile_details">
+                <h3><img src="https://cdn2.vectorstock.com/i/1000x1000/37/61/id-card-icon-male-user-person-profile-avatar-vector-23703761.jpg"
+                        height="30px">&nbsp;123456</h3>
+                <p>09 Jun 2021, 01:20 PM</p>
+            </div>
+        </div>
+        <div id="profile_details_container">
+            <img src="https://cdn-icons-png.flaticon.com/512/7403/7403331.png" alt="stethoscope-icon" width="100px"
+                height="100px">
+            <div id="doc_details">
+                <h4 id="doc_name">Dr. Joe Tribbiani</h4>
+                <h4 id="doc_post">General Medicine</h4>
+            </div>
+            <div id="extra_details">
+                <p><i>
+                        Amet minim molit non deserunt ullamco est sit aliqua dolor do amet sint.<br />
+                        Velit officia consequat duis enim velit mollit. Exercitation veniam consequat<br />
+                        sunt nostrud amet.
+                    </i></p>
+            </div>
+        </div>
+    </div>
+    <div id="cards_container">
+        <div class="card" id="ward_card">
+            <img src="data:image/jpeg;base64,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"
+                alt="ward-icon" height="100px" width="100px">
+            <h3>Ward</h3>
+        </div>
+        <div class="card" id="room_card">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Circle-icons-door.svg/1024px-Circle-icons-door.svg.png"
+                alt="room-icon" height="100px" width="100px">
+            <h3>Room</h3>
+        </div>
+        <div class="card" id="bed_card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2O4k7KUsq-SnHjaDpGQvWXlYib0QNc3EeQQ&usqp=CAU"
+                alt="bed-icon" height="100px" width="100px">
+            <h3>Bed ID</h3>
+        </div>
+        <div class="card" id="payment_card">
+            <img src="https://d2gg9evh47fn9z.cloudfront.net/1600px_COLOURBOX26265323.jpg" alt="payment-icon"
+                height="100px" width="100px">
+            <h3>Payment</h3>
+        </div>
+    </div>
+    <script>
+        let wardCard = document.getElementById("ward_card");
+
+        wardCard.onclick = function () {
+            alert("Ward-Name: Ward 2A")
+        }
+
+        let roomCard = document.getElementById("room_card");
+
+        roomCard.ondblclick = function () {
+            console.log("Room-Name : Premier Single")
+        }
+
+        let bedCard = document.getElementById("bed_card");
+
+        bedCard.onclick = function () {
+            bedCard.style.backgroundImage = "linear-gradient(45deg,green,lightgreen)"
+        }
+
+        let paymentCard = document.getElementById("payment_card");
+
+        paymentCard.onclick = function () {
+            alert("Insurance");
+        }
+    </script>
+</body>
+
+</html>

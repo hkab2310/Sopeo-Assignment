@@ -1,0 +1,164 @@
+body{
+    font: 1em sans-serif;
+    background-color: rgb(234, 232, 232);
+    padding-top: 1.5vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+#profile_card_container{
+    background-color: white;
+    padding-bottom: 1vh;
+    border-radius:15px;
+    box-shadow: 5px 5px 5px 5px lightgrey;
+}
+
+#profile_card{
+    display:flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 10px;
+    padding-top: 3vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+#profile_card>#profile_img{
+    display: inline-block;
+}
+
+.card:hover{
+    border: 3px lightgrey solid;
+}
+
+#profile_name{
+    text-align: center;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+}
+
+#profile_name>h3{
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+#profile_name>p{
+    font-size: 22px;
+    color: blue;
+    text-align: left;
+}
+
+#profile_name>p>span{
+    background-color: rgb(234, 232, 232);
+    color: black;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+#profile_details{
+    display: block;
+    height: 160px;
+    width: 75%;
+}
+
+#profile_details>h3{
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 15px;
+    text-align: right;
+}
+
+#profile_details>p{
+    font-size: 22px;
+    color: gray;
+    text-align: right;
+}
+
+#profile_details_container{
+    background-color: rgb(234, 232, 232); 
+    display: flex;
+    margin: 25px;
+    margin-bottom: none;
+    padding-top : 5vh;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    padding-bottom: 5vh;
+    border-radius: 5px;
+
+}
+
+#doc_details{
+    padding-left:2vw;
+    padding-right: 2vw;
+    border-right: 1px solid gray;
+}
+
+#doc_name{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: normal;
+    color: blueviolet;
+}
+
+#doc_post{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+#extra_details{
+    padding-left: 35px;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+#cards_container{
+    margin-top: 20px;
+    display: flex;
+    flex-basis: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card{
+    padding-top: 50px;
+    width:23%;
+    background-color:yellow;
+    text-align: center;
+    vertical-align: bottom;
+    border-radius: 10px;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+
+.card>h3{
+    margin-top: 75px;
+    font-size: 30px;
+    color: white;
+}
+
+.card>img{
+    border-radius: 50%;
+}
+
+#ward_card{
+    background-image: linear-gradient(45deg,blue,lightblue);
+}
+
+#room_card{
+    background-image: linear-gradient(45deg,rgb(171, 26, 101),lightpink);
+}
+
+#bed_card{
+    background-image: linear-gradient(45deg,rgb(214, 194, 44),rgb(239, 239, 141));
+}
+
+#payment_card{
+    background-image: linear-gradient(45deg,rgb(16, 137, 123),rgb(174, 231, 224));
+}
